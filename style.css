@@ -1,0 +1,30 @@
+
+    
+
+.toppage {
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+.H1heading{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    display: block;
+    color:blue;
+    Z-index: 1;
+    background-color:yellow;
+}
+
+h2 {
+    text-align:center;
+}
+
+li {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
