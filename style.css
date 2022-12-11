@@ -4,50 +4,80 @@
  }
 
 .toppage {
-    display: block;
-    position: relative;
-    top: 100px;
-    left: 50px;
+    margin-top: 150px;
 }
+nav {
+    background-color: black;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+nav li {
+    display: inline;
+}
+
 
 .H1heading{
     position: fixed;
-    top: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: -10px;
+    top: 0;
     left: 0;
     right: 0;
-    display: block;
+    display: inline;
     color:blue;
     Z-index: 1;
     background-color:yellow;
 }
 
-h2 {
+.h2 {
     text-align:center;
     color: green;
     font-size: x-large;
-    list-style: none;
-    
-    
+    list-style: none;   
     
 }
 
 li {
     position: relative;
-    top: 10px;
-    left: 10px;
     list-style: none;
-}
-
-nav {
-    position: relative;
-    background-color: rgb(182, 180, 180);
-    display: block;
-    padding: 5px;
-    margin: 100px;
 
 }
 
 li a {
-    text-decoration: none;
-    color: black;
+    text-decoration:none;
+    color: yellow;
+    padding-left: 30px;
+    padding-right: 30px
+
+}
+
+body {
+    background-color: grey;
+}
+
+.infomain {
+    width: 50%;
+    padding: 2px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: yellow;
+}
+
+img {
+    border: 5px solid black;
+    width: 40%
+}
+
+.fillform {
+    color: white;
+    margin-top: 25px;
+    font-size: x-large;
+}
+
+footer {
+    margin-bottom: 50px;
 }
