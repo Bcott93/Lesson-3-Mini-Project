@@ -3,13 +3,9 @@
     font-family: sans-serif; 
  }
 
-.toppage {
-    margin-top: 150px;
-}
 nav {
     background-color: black;
-    padding: 20px;
-    margin-left: 200px;
+    margin-left: 180px;
     margin-right: 200px;
 
 }
@@ -21,8 +17,8 @@ nav li {
 
 .H1heading{
     position: fixed;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: -10px;
     top: 0;
     left: 0;
@@ -50,13 +46,19 @@ li {
 li a {
     text-decoration:none;
     color: yellow;
-    padding-left: 30px;
-    padding-right: 30px
+    padding: 35px;
+
 
 }
+html {
+    scroll-padding-top: 180px;
+  }
 
 body {
     background-color: grey;
+    margin-top: 180px;
+    text-align: center;
+    align-items: center;
 }
 
 .infomain {
@@ -65,6 +67,7 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     background-color: yellow;
+    margin: auto;
 }
 
 img {
@@ -76,6 +79,14 @@ img {
     color: white;
     margin-top: 25px;
     font-size: x-large;
+}
+
+.form {
+    background-color: white;
+    padding: 10px;
+    width: 35%;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 footer {
