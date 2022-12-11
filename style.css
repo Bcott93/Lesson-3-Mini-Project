@@ -1,5 +1,7 @@
 
-    
+ * { 
+    font-family: sans-serif; 
+ }
 
 .toppage {
     display: block;
@@ -21,10 +23,31 @@
 
 h2 {
     text-align:center;
+    color: green;
+    font-size: x-large;
+    list-style: none;
+    
+    
+    
 }
 
 li {
     position: relative;
     top: 10px;
     left: 10px;
+    list-style: none;
+}
+
+nav {
+    position: relative;
+    background-color: rgb(182, 180, 180);
+    display: block;
+    padding: 5px;
+    margin: 100px;
+
+}
+
+li a {
+    text-decoration: none;
+    color: black;
 }
